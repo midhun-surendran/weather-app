@@ -8,6 +8,13 @@ function Search() {
         type="text"
         placeholder="search..City.."
       />
+      <div className="max-w-[500px] lg:max-w-[1000px] h-[120px] w-full flex justify-center items-center bg-white opacity-75 rounded-xl mt-10">
+        <div className="w-auto h-auto bg-transparent opacity-100">
+          <h1 className=" font-extrabold text-transparent text-3xl lg:text-7xl bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 opacity-100 ">
+            new york,usa
+          </h1>
+        </div>
+      </div>
     </div>
   );
 }
