@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.app {
+    background-image: url(./Assets/warm.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.app_cloudy {
+    background-image: url(./Assets/cloudy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
